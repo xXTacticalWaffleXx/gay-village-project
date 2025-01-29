@@ -1,0 +1,32 @@
+@font-face {
+    font-family: mono-extralight;
+    src: url(./fonts/IBMPlexMono-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: mono-medium;
+    src: url(./fonts/IBMPlexMono-Medium.ttf);
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: mono-extralight;
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    padding-bottom: 20px;
+}
+
+header {
+    padding-bottom: 10px;
+    font-family: mono-medium;
+    font-size: 30px;
+}
+
+.artist-statement {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
